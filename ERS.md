@@ -60,7 +60,7 @@ Esta tabla vincula cada requerimiento funcional con su respectivo identificador 
 | **RF-FE-01** | Página de Inicio| `CAMP-01: Épica Home` | `index.html` (Bootstrap Grid + Navbar)|
 | **RF-FE-02** | Página de Actividades | `CAMP-02: Épica Catálogo` | `actividades.html` (Bootstrap Cards simuladas)|
 | **RF-FE-03** | Detalle de Actividad| `CAMP-03: Épica Detalle` | `detalle.html` (JS: Alerta de cupo / Lista de espera) |
-| **RF-FE-04** | Formulario de Inscripción| `CAMP-04: Épica Registro`[cite: 2] | `inscripcion.html` (JS: Validación básica de campos vacíos) |
-| **RF-FE-05** | Agenda del Festival| `CAMP-05: Épica Agenda`[cite: 2] | `agenda.html` (Tabla Bootstrap + Badges de estado) |
-| **RF-FE-06** | Página de Stands| `CAMP-06: Épica Stands`[cite: 2] | `stands.html` (Tarjetas informativas fijas) |
-| **RF-FE-07** | Página de Contacto | `CAMP-07: Épica Contacto`[cite: 2] | `contacto.html` (Sección de texto de preguntas frecuentes) |
+| **RF-FE-04** | Formulario de Inscripción| `CAMP-04: Épica Registro`| `inscripcion.html` (JS: Validación básica de campos vacíos) |
+| **RF-FE-05** | Agenda del Festival| `CAMP-05: Épica Agenda`| `agenda.html` (Tabla Bootstrap + Badges de estado) |
+| **RF-FE-06** | Página de Stands| `CAMP-06: Épica Stands`| `stands.html` (Tarjetas informativas fijas) |
+| **RF-FE-07** | Página de Contacto | `CAMP-07: Épica Contacto` | `contacto.html` (Sección de texto de preguntas frecuentes) |
