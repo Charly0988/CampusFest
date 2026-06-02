@@ -57,10 +57,10 @@ Esta tabla vincula cada requerimiento funcional con su respectivo identificador 
 
 | Código RF | Nombre del Requerimiento | Código Jira (Épica / Historia) | Componente Web a Programar |
 | :--- | :--- | :--- | :--- |
-| **RF-FE-01** | Página de Inicio[cite: 1] | `CAMP-01: Épica Home` | `index.html` (Bootstrap Grid + Navbar)|
-| **RF-FE-02** | Página de Actividades[cite: 1] | `CAMP-02: Épica Catálogo` | `actividades.html` (Bootstrap Cards simuladas)|
-| **RF-FE-03** | Detalle de Actividad[cite: 1] | `CAMP-03: Épica Detalle` | `detalle.html` (JS: Alerta de cupo / Lista de espera) |
-| **RF-FE-04** | Formulario de Inscripción[cite: 1] | `CAMP-04: Épica Registro`[cite: 2] | `inscripcion.html` (JS: Validación básica de campos vacíos) |
-| **RF-FE-05** | Agenda del Festival[cite: 1] | `CAMP-05: Épica Agenda`[cite: 2] | `agenda.html` (Tabla Bootstrap + Badges de estado) |
-| **RF-FE-06** | Página de Stands[cite: 1] | `CAMP-06: Épica Stands`[cite: 2] | `stands.html` (Tarjetas informativas fijas) |
-| **RF-FE-07** | Página de Contacto[cite: 1] | `CAMP-07: Épica Contacto`[cite: 2] | `contacto.html` (Sección de texto de preguntas frecuentes) |
+| **RF-FE-01** | Página de Inicio| `CAMP-01: Épica Home` | `index.html` (Bootstrap Grid + Navbar)|
+| **RF-FE-02** | Página de Actividades | `CAMP-02: Épica Catálogo` | `actividades.html` (Bootstrap Cards simuladas)|
+| **RF-FE-03** | Detalle de Actividad| `CAMP-03: Épica Detalle` | `detalle.html` (JS: Alerta de cupo / Lista de espera) |
+| **RF-FE-04** | Formulario de Inscripción| `CAMP-04: Épica Registro`[cite: 2] | `inscripcion.html` (JS: Validación básica de campos vacíos) |
+| **RF-FE-05** | Agenda del Festival| `CAMP-05: Épica Agenda`[cite: 2] | `agenda.html` (Tabla Bootstrap + Badges de estado) |
+| **RF-FE-06** | Página de Stands| `CAMP-06: Épica Stands`[cite: 2] | `stands.html` (Tarjetas informativas fijas) |
+| **RF-FE-07** | Página de Contacto | `CAMP-07: Épica Contacto`[cite: 2] | `contacto.html` (Sección de texto de preguntas frecuentes) |
