@@ -74,7 +74,7 @@ Centralizará la información para usuarios visitantes y administradores
 
 
 
-### 4. MATRIZ DE TRAZABILIDAD (REQUISITOS VS. JIRA)
+### 5. MATRIZ DE TRAZABILIDAD (REQUISITOS VS. JIRA)
 Esta tabla vincula cada requerimiento funcional con su respectivo identificador en el sistema de gestión de proyectos Jira para asegurar el cumplimiento del alcance del festival.
 
 | Código RF | Nombre del Requerimiento | Código Jira (Épica / Historia) | Componente Web a Programar |
