@@ -47,4 +47,20 @@ Centralizará la información para usuarios visitantes y administradores
     * Fecha, hora exacta y lugar asignado.
     * Requisitos de participación particulares de la actividad.
     * Cupo máximo total (definido previamente por el administrador).
-    * **Lógica de Cupos y Lista de Espera:** El sistema debe evaluar el cupo simulado. Si hay disponibilidad, se muestra un botón para proceder a la inscripción. Si el cupo está en 0, el sistema debe lanzar una **alerta visual** de disponibilidad agotada y cambiar el comportamiento del botón para permitir un registro bajo la condición de **"Lista de espera"** para posterior confirmación
+    * **Lógica de Cupos y Lista de Espera:** El sistema debe evaluar el cupo simulado. Si hay disponibilidad, se muestra un botón para proceder a la inscripción. Si el cupo está en 0, el sistema debe lanzar una **alerta visual** de disponibilidad agotada y cambiar el comportamiento del botón para permitir un registro bajo la condición de **"Lista de espera"** para posterior confirmación.
+
+
+    ---
+
+### 4. MATRIZ DE TRAZABILIDAD (REQUISITOS VS. JIRA)
+Esta tabla vincula cada requerimiento funcional con su respectivo identificador en el sistema de gestión de proyectos Jira para asegurar el cumplimiento del alcance del festival.
+
+| Código RF | Nombre del Requerimiento | Código Jira (Épica / Historia) | Componente Web a Programar |
+| :--- | :--- | :--- | :--- |
+| **RF-FE-01** | Página de Inicio[cite: 1] | `CAMP-01: Épica Home` | `index.html` (Bootstrap Grid + Navbar)|
+| **RF-FE-02** | Página de Actividades[cite: 1] | `CAMP-02: Épica Catálogo` | `actividades.html` (Bootstrap Cards simuladas)|
+| **RF-FE-03** | Detalle de Actividad[cite: 1] | `CAMP-03: Épica Detalle` | `detalle.html` (JS: Alerta de cupo / Lista de espera) |
+| **RF-FE-04** | Formulario de Inscripción[cite: 1] | `CAMP-04: Épica Registro`[cite: 2] | `inscripcion.html` (JS: Validación básica de campos vacíos) |
+| **RF-FE-05** | Agenda del Festival[cite: 1] | `CAMP-05: Épica Agenda`[cite: 2] | `agenda.html` (Tabla Bootstrap + Badges de estado) |
+| **RF-FE-06** | Página de Stands[cite: 1] | `CAMP-06: Épica Stands`[cite: 2] | `stands.html` (Tarjetas informativas fijas) |
+| **RF-FE-07** | Página de Contacto[cite: 1] | `CAMP-07: Épica Contacto`[cite: 2] | `contacto.html` (Sección de texto de preguntas frecuentes) |
