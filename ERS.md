@@ -50,7 +50,29 @@ Centralizará la información para usuarios visitantes y administradores
     * **Lógica de Cupos y Lista de Espera:** El sistema debe evaluar el cupo simulado. Si hay disponibilidad, se muestra un botón para proceder a la inscripción. Si el cupo está en 0, el sistema debe lanzar una **alerta visual** de disponibilidad agotada y cambiar el comportamiento del botón para permitir un registro bajo la condición de **"Lista de espera"** para posterior confirmación.
 
 
-    ---
+
+
+### 4. REQUISITOS NO FUNCIONALES (RNF)
+
+#### RNF-01: Usabilidad y Accesibilidad (Inclusión)
+* **Descripción:** La interfaz debe ser inclusiva y fácil de usar para toda la comunidad estudiantil.
+* **Criterios simples:** * El diseño debe usar combinaciones de colores con alto contraste aptas para personas con daltonismo y baja visión.
+    * Todas las imágenes, iconos y botones interactivos deben incluir etiquetas de texto alternativo (`alt`) legibles para lectores de pantalla (para personas ciegas).
+    * Se deben incorporar iconos claros junto al texto en los menús y alertas para facilitar la comprensión de personas sordas.
+
+#### RNF-02: Restricción de Diseño (Imagen Institucional)
+* **Descripción:** El sitio web debe respetar la identidad visual de la institución.
+* **Criterios simples:** Se debe aplicar estrictamente la paleta de colores oficiales y las tipografías establecidas en el **Libro de Marca institucional** provisto por el cliente.
+
+#### RNF-03: Adaptabilidad de la Interfaz (Modo Oscuro)
+* **Descripción:** El sistema debe mitigar el cansancio visual del usuario de forma inteligente.
+* **Criterios simples:** La aplicación no usará botones manuales; debe cambiar entre el tema claro y oscuro de forma **100% automática**, detectando las preferencias del sistema operativo del usuario mediante *Media Queries* nativas de CSS (`@media (prefers-color-scheme: dark)`).
+
+#### RNF-04: Compatibilidad y Capacidad de Respuesta (Responsive)
+* **Descripción:** El sitio debe ser accesible desde cualquier dispositivo común.
+* **Criterios simples:** El diseño debe ser responsivo utilizando los componentes nativos de **Bootstrap**, asegurando que la navegación y las tarjetas se adapten correctamente tanto en pantallas de escritorio como en teléfonos celulares.
+
+
 
 ### 4. MATRIZ DE TRAZABILIDAD (REQUISITOS VS. JIRA)
 Esta tabla vincula cada requerimiento funcional con su respectivo identificador en el sistema de gestión de proyectos Jira para asegurar el cumplimiento del alcance del festival.
