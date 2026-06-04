@@ -86,3 +86,5 @@ Esta tabla vincula cada requerimiento funcional con su respectivo identificador 
 | **RF-FE-05** | Agenda del Festival| `CAMP-05: Épica Agenda`| `agenda.html` (Tabla Bootstrap + Badges de estado) |
 | **RF-FE-06** | Página de Stands| `CAMP-06: Épica Stands`| `stands.html` (Tarjetas informativas fijas) |
 | **RF-FE-07** | Página de Contacto | `CAMP-07: Épica Contacto` | `contacto.html` (Sección de texto de preguntas frecuentes) |
+| **RF-FE-08** | Vista del Administrador | `CAMP-08: Épica Administrador` | `admin.html` (Administras actividades y cupos disponibles) |
+| **RF-FE-09** | Control de Cupos | `CAMP-09: Épica Cupos` | `cupos.html` (Control de campos disponibles y lista de espera.) |
