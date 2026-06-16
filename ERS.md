@@ -88,3 +88,66 @@ Esta tabla vincula cada requerimiento funcional con su respectivo identificador 
 | **RF-FE-07** | Página de Contacto | `CAMP-07: Épica Contacto` | `contacto.html` (Sección de texto de preguntas frecuentes) |
 | **RF-FE-08** | Vista del Administrador | `CAMP-08: Épica Administrador` | `admin.html` (Administras actividades y cupos disponibles) |
 | **RF-FE-09** | Control de Cupos | `CAMP-09: Épica Cupos` | `cupos.html` (Control de campos disponibles y lista de espera.) |
+
+
+
+### 🗺️ Diseño de Navegación: Mapa de Sitio (Sitemap)
+
+Para la estructura del sistema CampusFest se han modelado dos flujos de navegación independientes según el rol asignado, garantizando que la experiencia pública del visitante y el panel de control del administrador mantengan una jerarquía lógica de tres niveles estrictos (Nodo Raíz ➔ Páginas/Módulos ➔ Componentes/Acciones).
+
+#### 👤 Flujo 1: Rol de Usuario Visitante (Público General)
+
+Nivel 1: Plataforma Web CampusFest (Raíz - index.html)
+│
+├── Nivel 2: Módulo 1. Inicio (Home)
+│   ├── Nivel 3: Sección Hero (Nombre, fecha general y lugar del festival)[cite: 3]
+│   ├── Nivel 3: Grid interactivo (Cuadrícula con 3 actividades destacadas)[cite: 3]
+│   └── Nivel 3: Navbar de navegación (Enlaces directos a Actividades e Inscripción)[cite: 3]
+│
+├── Nivel 2: Módulo 2. Catálogo de Actividades
+│   ├── Nivel 3: Buscador de eventos (Barra de filtrado por palabras clave)
+│   ├── Nivel 3: Tarjetas responsivas (Cards de Bootstrap con información resumida y cupos)[cite: 3]
+│   └── Nivel 3: Botones de interacción (Acción directa para "Ver detalle")[cite: 3]
+│
+├── Nivel 2: Módulo 3. Detalle de Actividad
+│   ├── Nivel 3: Bloque informativo extendido (Descripción, requisitos y cupo máximo)[cite: 3]
+│   └── Nivel 3: Botón dinámico de estado (Acción de Inscripción o Alerta de "Lista de espera" en JavaScript)[cite: 3]
+│
+├── Nivel 2: Módulo 4. Formulario de Inscripción
+│   ├── Nivel 3: Formulario de captura (Campos de texto para Nombre, ID, correo y teléfono)[cite: 3]
+│   ├── Nivel 3: Dropdown dinámico (Selector para las 6 categorías principales del festival)[cite: 3]
+│   └── Nivel 3: Validaciones lógicas (Alertas de JavaScript para impedir campos vacíos y validar correos)[cite: 3]
+│
+├── Nivel 2: Módulo 5. Agenda del Festival
+│   ├── Nivel 3: Tabla cronológica (Distribución estructurada por bloques de fecha y hora)[cite: 3]
+│   └── Nivel 3: Etiquetas de estado visual (Badges de Bootstrap para Disponible, Lleno o Cancelado)[cite: 3]
+│
+├── Nivel 2: Módulo 6. Stands o Grupos
+│   └── Nivel 3: Sección informativa fija (Mosaico de tarjetas con responsables y ubicación de clubes)[cite: 3]
+│
+└── Nivel 2: Módulo 7. Contacto y FAQ
+    ├── Nivel 3: Bloque informativo (Datos de contacto del comité organizador y soporte)[cite: 3]
+    ├── Nivel 3: Acordeón interactivo (Sección de Preguntas Frecuentes desplegables)[cite: 3]
+    └── Nivel 3: Formulario de consulta (Campos simulados para el envío de dudas)[cite: 3]
+
+ 
+#### 🔐 Flujo 2: Rol de Usuario Administrador (Gestión Interna)
+
+Nivel 1: Panel de Control CampusFest (Raíz - Panel Administrativo)
+│
+├── Nivel 2: Módulo 1. Autenticación (Login)
+│   ├── Nivel 3: Formulario de credenciales (Campos de entrada para Usuario y Contraseña)[cite: 3]
+│   └── Nivel 3: Validación de acceso (Control lógico para el ingreso seguro al Dashboard)[cite: 3]
+│
+├── Nivel 2: Módulo 2. Gestión de Actividades (Dashboard Central)
+│   ├── Nivel 3: Formulario de registro (Creación y almacenamiento de nuevos eventos con cupo y lugar)[cite: 3]
+│   └── Nivel 3: Panel de modificaciones (Botones operativos para Modificar, Editar o Eliminar actividades)[cite: 3]
+│
+├── Nivel 2: Módulo 3. Control de Inscripciones y Cupos
+│   ├── Nivel 3: Tabla de datos (Visualización detallada de estudiantes registrados con su ID y carrera)[cite: 3]
+│   ├── Nivel 3: Módulo de aprobación (Gestión y liberación manual de cupos para la Lista de Espera)[cite: 3]
+│   └── Nivel 3: Indicadores de métricas (Bloques superiores con totales de inscritos y espacios libres)[cite: 3]
+│
+└── Nivel 2: Módulo 4. Mantenimiento de Stands
+    ├── Nivel 3: Formulario de adición (Registro de nuevos clubes o grupos participantes)[cite: 3]
+    └── Nivel 3: Modificador de mapa (Asignación o reubicación física de los stands en el evento)[cite: 3]
