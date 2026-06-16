@@ -32,8 +32,7 @@ CampusFest (Home) - ` |
 Vista Visitante - Catálogo de Actividades` |
 | **RF-FE-03** | Detalle de Actividad | CAMP-03: Épica Detalle | 02-Popout
 Popout al presionar Ver Detalle |
-| **RF-FE-04** | Formulario de Inscripción | CAMP-04: Épica Registro | `05-Inscripcion
-Vista Visitante - - Formulario de Inscripción` |
+| **RF-FE-04** | Formulario de Inscripción | CAMP-04: Épica Registro | `05-Inscripcion Vista Visitante - - Formulario de Inscripción` |
 | **RF-FE-05** | Agenda del Festival | CAMP-05: Épica Agenda | `03- Agenda
 
 Vista Visitante - - Agenda del Festival` |
